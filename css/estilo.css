@@ -108,32 +108,6 @@ nav .acessar {
   background-position-y: 140%;
 }
 
-#streaming .circular {
-  background: url("../img/circular.png") no-repeat;
-  background-size: 100%;
-  background-position-y: 100%;
-  margin-top: 10%;
-  margin-bottom: 70px;
-}
-
-#streaming .imagem img {
-  padding-top: 17.2rem;
-}
-
-#streaming .titulo h3 {
-  margin-top: 5%;
-  padding-right: 150px;
-  margin-bottom: 5%;
-  font-size: 2.5rem;
-  margin-top: 2em;
-}
-
-#streaming .paragrafo p {
-  font-size: 20px;
-  font-weight: 200;
-  padding-right: 300px;
-}
-
 #streaming .botao {
   text-align: center;
 }
@@ -277,6 +251,16 @@ nav .acessar {
     background-position-x: 75%;
   }
 
+  #streaming .bannerMobile img {
+    display: none;
+  }
+
+  #streaming .banner img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+  }
+
   #interacao {
     background-position-y: 20%;
     background-size: 30%;
@@ -286,10 +270,71 @@ nav .acessar {
     background-size: 35%;
     background-position-x: 22%;
   }
+}
 
-  #streaming img {
-    width: 80%;
-    padding-left: 4em;
+@media screen and (min-width: 1400px) and (max-width: 1999px) {
+  nav .navbar-brand img {
+    margin-left: -80px;
+  }
+
+  nav .navbar-nav {
+    margin-left: 15%;
+  }
+
+  #header .titulo h1 {
+    padding-right: 2em;
+  }
+
+  #header .imagem img {
+    margin-top: 6em;
+  }
+
+  #resultados img {
+    width: 100%;
+  }
+
+  #streaming .bannerMobile img {
+    display: none;
+  }
+
+  #streaming .botao button {
+    margin-top: 50px;
+  }
+
+  #estrutura img {
+    width: 100%;
+  }
+
+  #estrutura .texto p {
+    padding-right: 2em;
+  }
+
+  #interacao .paragrafo p:first-child {
+    padding-right: 6em;
+  }
+
+  #interacao .paragrafo p {
+    padding-right: 6em;
+  }
+
+  #interacao .imagem img {
+    margin-top: 5em;
+  }
+
+  #investindo .paragrafo p {
+    padding-right: 6em;
+  }
+
+  #footer .imagem img {
+    margin-left: -6em;
+  }
+
+  #footer .copyright p {
+    margin-top: -20px;
+  }
+
+  #footer .icons {
+    margin-top: -10px;
   }
 }
 
@@ -314,27 +359,20 @@ nav .acessar {
     width: 100%;
   }
 
+  #streaming .bannerMobile img {
+    display: none;
+  }
+
+  #streaming .botao button {
+    margin-top: 50px;
+  }
+
   #estrutura img {
     width: 100%;
   }
 
   #estrutura .texto p {
     padding-right: 2em;
-  }
-
-  #streaming img {
-    width: 90%;
-    padding-top: 6.8em;
-    padding-left: 5em;
-  }
-
-  #streaming .titulo h3 {
-    margin-top: 7.5em;
-    padding-right: 1em;
-  }
-
-  #streaming .paragrafo p {
-    padding-right: 7em;
   }
 
   #interacao .paragrafo p:first-child {
@@ -383,26 +421,24 @@ nav .acessar {
     width: 100%;
   }
 
+  #streaming .bannerMobile img {
+    display: none;
+  }
+
+  #streaming .banner img {
+    margin-top: 50px;
+  }
+
+  #streaming .botao button {
+    margin-top: 50px;
+  }
+
   #estrutura img {
     width: 100%;
   }
 
   #estrutura .texto p {
     padding-right: 2em;
-  }
-
-  #streaming img {
-    width: 100%;
-    padding-top: 2.5em;
-  }
-
-  #streaming .titulo h3 {
-    margin-top: 0em;
-    padding-right: 1em;
-  }
-
-  #streaming .paragrafo p {
-    padding-right: 1.8em;
   }
 
   #interacao .paragrafo p:first-child {
@@ -482,6 +518,16 @@ nav .acessar {
   #header .titulo h1 {
     padding-right: 0;
     text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #header .imagem {
+    text-align: center;
+  }
+
+  #header .imagem img {
+    width: 70%;
   }
 
   #header .botao {
@@ -489,7 +535,7 @@ nav .acessar {
   }
 
   #header .botao button {
-    width: 90%;
+    width: 50%;
   }
 
   #resultados .carrossel {
@@ -505,33 +551,25 @@ nav .acessar {
   #estrutura .texto p {
     padding-right: 0;
     text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   #estrutura .imagem img {
     display: none;
   }
 
-  #streaming .circular {
-    background-position-y: 18%;
+  #streaming .banner img {
+    display: none;
   }
 
-  #streaming .imagem img {
-    margin-top: 2em;
-  }
-
-  #streaming .titulo h3 {
-    padding-right: 0;
-    text-align: center;
-  }
-
-  #streaming .paragrafo p {
-    padding-right: 0;
-    padding-top: 1em;
-    text-align: center;
+  #streaming .bannerMobile img {
+    margin-top: 50px;
   }
 
   #streaming .botao button {
-    width: 90%;
+    width: 50%;
+    margin-top: 50px;
   }
 
   #interacao .titulo h1 {
@@ -546,11 +584,15 @@ nav .acessar {
     padding-right: 0;
     padding-top: 2em;
     text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   #interacao .paragrafo p {
     padding-right: 0;
     text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   #interacao .imagem img {
@@ -571,8 +613,10 @@ nav .acessar {
 
   #investindo .paragrafo p {
     padding-right: 0;
-    padding-top: 1em;
+    padding-top: 2em;
     text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   #investindo .botao {
@@ -580,7 +624,12 @@ nav .acessar {
   }
 
   #investindo .botao button {
-    width: 90%;
+    width: 50%;
+    margin-top: 2em;
+  }
+
+  #footer .imagem img {
+    width: 35%;
   }
 
   #footer .icons {
@@ -645,6 +694,7 @@ nav .acessar {
 
   #header .botao button {
     width: 90%;
+    margin-top: 50px;
   }
 
   #resultados .carrossel {
@@ -667,28 +717,12 @@ nav .acessar {
     display: none;
   }
 
-  #streaming .circular {
-    background: url("../img/homem2Mobile.png") no-repeat;
-    background-size: 100%;
-  }
-
-  #streaming .imagem img {
+  #streaming .banner img {
     display: none;
   }
 
-  #streaming .titulo h3 {
-    padding-right: 0;
-    text-align: center;
-    padding-top: 6em;
-  }
-
-  #streaming .paragrafo p {
-    padding-right: 0;
-    padding-top: 1em;
-    text-align: center;
-    padding-right: 30px;
-    text-align: center;
-    padding-left: 30px;
+  #streaming .bannerMobile img {
+    margin-top: 50px;
   }
 
   #streaming .botao button {
@@ -833,32 +867,17 @@ nav .acessar {
     display: none;
   }
 
-  #streaming .circular {
-    background: url("../img/homem2Mobile.png") no-repeat;
-    background-size: 100%;
-  }
-
-  #streaming .imagem img {
+  #streaming .banner img {
     display: none;
   }
 
-  #streaming .titulo h3 {
-    padding-top: 6em;
-    padding-right: 0;
-    text-align: center;
-  }
-
-  #streaming .paragrafo p {
-    padding-right: 0;
-    padding-top: 1em;
-    text-align: center;
-    padding-right: 30px;
-    text-align: center;
-    padding-left: 30px;
+  #streaming .bannerMobile img {
+    margin-top: 50px;
   }
 
   #streaming .botao button {
     width: 90%;
+    margin-top: 50px;
   }
 
   #interacao .titulo h1 {
@@ -1011,33 +1030,17 @@ nav .acessar {
     display: none;
   }
 
-  #streaming .circular {
-    background: url("../img/homem2Mobile.png") no-repeat;
-    background-size: 100%;
-  }
-
-  #streaming .imagem img {
+  #streaming .banner img {
     display: none;
   }
 
-  #streaming .titulo h3 {
-    padding-right: 0;
-    text-align: center;
-    padding-top: 6em;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  #streaming .paragrafo p {
-    padding-right: 0;
-    padding-top: 1em;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+  #streaming .bannerMobile img {
+    margin-top: 50px;
   }
 
   #streaming .botao button {
     width: 90%;
+    margin-top: 50px;
   }
 
   #interacao .titulo h1 {
@@ -1184,29 +1187,17 @@ nav .acessar {
     display: none;
   }
 
-  #streaming .circular {
-    background: url("../img/homem2Mobile.png") no-repeat;
-    background-size: 100%;
-  }
-
-  #streaming .imagem img {
+  #streaming .banner img {
     display: none;
   }
 
-  #streaming .titulo h3 {
-    padding-right: 0;
-    text-align: center;
-    padding-top: 6em;
-  }
-
-  #streaming .paragrafo p {
-    padding-right: 0;
-    padding-top: 1em;
-    text-align: center;
+  #streaming .bannerMobile img {
+    margin-top: 50px;
   }
 
   #streaming .botao button {
     width: 90%;
+    margin-top: 50px;
   }
 
   #interacao .titulo h1 {
