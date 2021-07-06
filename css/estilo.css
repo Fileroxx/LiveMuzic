@@ -1,0 +1,1258 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(50% 50% at 50% 50%, #2a0143 0%, #120028 100%);
+  color: #fff;
+}
+
+nav img {
+  width: 80%;
+  margin-left: -20%;
+}
+
+nav .navbar-nav {
+  margin-left: 30%;
+}
+
+nav a {
+  margin-left: 50px;
+  font-size: 15px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+nav .acessar {
+  background: #ed0099;
+  border-radius: 20px;
+}
+
+#header {
+  background: url("../img/Light\ -\ 01.png") no-repeat;
+  background-size: 65%;
+  background-position-x: 40%;
+}
+
+#header .titulo h1 {
+  margin-top: 100px;
+  padding-right: 200px;
+  padding-bottom: 70px;
+  font-weight: 300;
+}
+
+#header .botao button {
+  background: #ed0099;
+  color: #fff;
+  font-weight: 300;
+  font-size: 22px;
+  width: 40%;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  border-style: none;
+}
+
+#resultados .titulo h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 300;
+}
+
+#resultados .borda {
+  border-bottom: 2px solid #00e5ff;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#resultados .carrossel {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+#estrutura {
+  background: url("../img/Light\ -\ 01.png") no-repeat;
+  background-size: 55%;
+  background-position-x: 60%;
+  background-position-y: 35%;
+}
+
+#estrutura .texto p {
+  font-size: 22px;
+  font-weight: 200;
+  margin-top: 5%;
+  padding-right: 200px;
+  margin-bottom: 0px;
+}
+
+#estrutura .texto p:first-child {
+  margin-top: 20%;
+}
+
+#estrutura .texto span {
+  font-weight: 500;
+}
+
+#estrutura .imagem img {
+  margin-left: -0%;
+  margin-top: 18%;
+}
+
+#streaming {
+  background: url("../img/Light\ -\ 02.png") no-repeat;
+  background-size: 40%;
+  background-position-x: 100%;
+  background-position-y: 140%;
+}
+
+#streaming .circular {
+  background: url("../img/circular.png") no-repeat;
+  background-size: 100%;
+  margin-top: 10%;
+  margin-bottom: 70px;
+}
+
+#streaming .imagem img {
+  margin-top: -5em;
+}
+
+#streaming .titulo h3 {
+  margin-top: 5%;
+  padding-right: 150px;
+  margin-bottom: 5%;
+  font-size: 2.5rem;
+  margin-top: 2em;
+}
+
+#streaming .paragrafo p {
+  font-size: 20px;
+  font-weight: 200;
+  padding-right: 300px;
+}
+
+#streaming .botao {
+  text-align: center;
+}
+
+#streaming .botao button {
+  background: #ed0099;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  width: 30%;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  border-style: none;
+}
+
+#interacao {
+  background: url("../img/Light\ -\ 01.png") no-repeat;
+  background-size: 44%;
+  background-position-y: 120%;
+  background-position-x: 60%;
+}
+
+#interacao .titulo h1 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 4em;
+}
+
+#interacao .titulo span {
+  font-weight: 500;
+}
+
+#interacao .borda {
+  border-bottom: 2px solid #00e5ff;
+  width: 60%;
+  margin-bottom: 4em;
+}
+
+#interacao .paragrafo p:first-child {
+  font-weight: 400;
+  font-size: 20px;
+  padding-right: 250px;
+}
+
+#interacao .paragrafo p {
+  font-size: 20px;
+  font-weight: 200;
+  padding-right: 200px;
+}
+
+#investindo {
+  background: url("../img/Light\ -\ 01.png") no-repeat;
+  background-size: 60%;
+  background-position-y: 20%;
+  background-position-x: -20%;
+}
+
+#investindo .titulo h1 {
+  margin-top: 4em;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#investindo .paragrafo p {
+  font-size: 20px;
+  font-weight: 300;
+  padding-right: 200px;
+}
+
+#investindo .borda {
+  border-bottom: 2px solid #00e5ff;
+  width: 60%;
+  margin-bottom: 2em;
+}
+
+#investindo .botao button {
+  background: #ed0099;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  width: 35%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  border-style: none;
+}
+
+#investindo .imagem img {
+  width: 60%;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+#footer {
+  background: #1f063e;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#footer .imagem img {
+  width: 50%;
+}
+
+#footer .copyright p {
+  padding-top: 50px;
+  font-weight: 100;
+}
+
+#footer .icons .facebook {
+  padding-top: 50px;
+  width: 3%;
+}
+
+#footer .icons .youtube {
+  padding-top: 50px;
+  width: 10%;
+  padding-left: 10px;
+}
+
+#footer .icons .instagram {
+  padding-top: 50px;
+  width: 8.5%;
+  padding-left: 10px;
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2560px) {
+  #header {
+    background-size: 35%;
+    background-position-x: 55%;
+  }
+
+  #estrutura {
+    background-size: 30%;
+  }
+
+  #streaming {
+    background-size: 25%;
+    background-position-x: 75%;
+  }
+
+  #interacao {
+    background-position-y: 20%;
+    background-size: 30%;
+  }
+
+  #investindo {
+    background-size: 35%;
+    background-position-x: 22%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1366px) {
+  nav .navbar-nav {
+    margin-left: 15%;
+  }
+
+  #header .titulo h1 {
+    padding-right: 2em;
+  }
+
+  #header .imagem img {
+    margin-top: 6em;
+  }
+
+  #resultados img {
+    width: 100%;
+  }
+
+  #estrutura img {
+    width: 100%;
+  }
+
+  #estrutura .texto p {
+    padding-right: 2em;
+  }
+
+  #streaming img {
+    width: 100%;
+    padding-top: 2em;
+  }
+
+  #streaming .titulo h3 {
+    margin-top: 1em;
+    padding-right: 1em;
+  }
+
+  #streaming .paragrafo p {
+    padding-right: 7em;
+  }
+
+  #interacao .paragrafo p:first-child {
+    padding-right: 6em;
+  }
+
+  #interacao .paragrafo p {
+    padding-right: 6em;
+  }
+
+  #interacao .imagem img {
+    margin-top: 5em;
+  }
+
+  #investindo .paragrafo p {
+    padding-right: 6em;
+  }
+
+  #footer .imagem img {
+    margin-left: -6em;
+  }
+
+  #footer .copyright p {
+    margin-top: -20px;
+  }
+
+  #footer .icons {
+    margin-top: -10px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  nav .navbar-nav {
+    margin-left: -10%;
+  }
+
+  #header .titulo h1 {
+    padding-right: 2em;
+  }
+
+  #header .imagem img {
+    margin-top: 6em;
+  }
+
+  #resultados img {
+    width: 100%;
+  }
+
+  #estrutura img {
+    width: 100%;
+  }
+
+  #estrutura .texto p {
+    padding-right: 2em;
+  }
+
+  #streaming img {
+    width: 100%;
+    padding-top: 2.5em;
+  }
+
+  #streaming .titulo h3 {
+    margin-top: 0em;
+    padding-right: 1em;
+  }
+
+  #streaming .paragrafo p {
+    padding-right: 1.8em;
+  }
+
+  #interacao .paragrafo p:first-child {
+    padding-right: 6em;
+  }
+
+  #interacao .paragrafo p {
+    padding-right: 6em;
+  }
+
+  #interacao .imagem img {
+    margin-top: 5em;
+  }
+
+  #investindo .paragrafo p {
+    padding-right: 6em;
+  }
+
+  #footer .imagem img {
+    margin-left: -6em;
+  }
+
+  #footer .copyright p {
+    margin-top: -20px;
+  }
+
+  #footer .icons {
+    margin-top: -10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  nav .navbar-brand img {
+    width: 70%;
+  }
+
+  nav .navbar-toggler {
+    margin-left: 30em;
+    margin-top: -7em;
+  }
+
+  nav .navbar-nav a {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  nav a {
+    margin-top: 10px;
+  }
+
+  nav .navbar-nav {
+    margin-left: 0em;
+    padding-left: -10em;
+  }
+
+  #header {
+    background: none;
+  }
+
+  #estrutura {
+    background: none;
+  }
+
+  #streaming {
+    background: none;
+  }
+
+  #interacao {
+    background: none;
+  }
+
+  #investindo {
+    background: none;
+  }
+
+  #header .titulo h1 {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  #header .botao {
+    text-align: center;
+  }
+
+  #header .botao button {
+    width: 90%;
+  }
+
+  #resultados .carrossel {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #resultados .carrossel img {
+    margin: 0 auto;
+    margin-top: 3em;
+  }
+
+  #estrutura .texto p {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  #estrutura .imagem img {
+    display: none;
+  }
+
+  #streaming .circular {
+    background-position-y: 18%;
+  }
+
+  #streaming .imagem img {
+    margin-top: 2em;
+  }
+
+  #streaming .titulo h3 {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  #streaming .paragrafo p {
+    padding-right: 0;
+    padding-top: 1em;
+    text-align: center;
+  }
+
+  #streaming .botao button {
+    width: 90%;
+  }
+
+  #interacao .titulo h1 {
+    text-align: center;
+  }
+
+  #interacao .borda {
+    margin: 0 auto;
+  }
+
+  #interacao .paragrafo p:first-child {
+    padding-right: 0;
+    padding-top: 2em;
+    text-align: center;
+  }
+
+  #interacao .paragrafo p {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  #interacao .imagem img {
+    display: none;
+  }
+
+  #investindo .imagem {
+    text-align: center;
+  }
+
+  #investindo .titulo h1 {
+    text-align: center;
+  }
+
+  #investindo .borda {
+    margin: 0 auto;
+  }
+
+  #investindo .paragrafo p {
+    padding-right: 0;
+    padding-top: 1em;
+    text-align: center;
+  }
+
+  #investindo .botao {
+    text-align: center;
+  }
+
+  #investindo .botao button {
+    width: 90%;
+  }
+
+  #footer .icons {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 458px) and (max-width: 458px) {
+  nav .navbar-brand img {
+    width: 70%;
+  }
+
+  nav .navbar-toggler {
+    margin-left: 17em;
+    margin-top: -7em;
+  }
+
+  nav .navbar-nav a {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  nav a {
+    margin-top: 10px;
+  }
+
+  nav .navbar-nav {
+    margin-left: 0em;
+    padding-left: -10em;
+  }
+
+  #header {
+    background: none;
+  }
+
+  #estrutura {
+    background: none;
+  }
+
+  #streaming {
+    background: none;
+  }
+
+  #interacao {
+    background: none;
+  }
+
+  #investindo {
+    background: none;
+  }
+
+  #header .titulo h1 {
+    padding-right: 30px;
+    text-align: center;
+    padding-left: 30px;
+  }
+
+  #header .botao {
+    text-align: center;
+  }
+
+  #header .botao button {
+    width: 90%;
+  }
+
+  #resultados .carrossel {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #resultados .carrossel img {
+    margin: 0 auto;
+    margin-top: 3em;
+  }
+
+  #estrutura .texto p {
+    padding-right: 30px;
+    text-align: center;
+    padding-left: 30px;
+  }
+
+  #estrutura .imagem img {
+    display: none;
+  }
+
+  #streaming .circular {
+    background: url("../img/homem2Mobile.png") no-repeat;
+    background-size: 100%;
+  }
+
+  #streaming .imagem img {
+    display: none;
+  }
+
+  #streaming .titulo h3 {
+    padding-right: 0;
+    text-align: center;
+    padding-top: 6em;
+  }
+
+  #streaming .paragrafo p {
+    padding-right: 0;
+    padding-top: 1em;
+    text-align: center;
+    padding-right: 30px;
+    text-align: center;
+    padding-left: 30px;
+  }
+
+  #streaming .botao button {
+    width: 90%;
+  }
+
+  #interacao .titulo h1 {
+    text-align: center;
+  }
+
+  #interacao .borda {
+    margin: 0 auto;
+  }
+
+  #interacao .paragrafo p:first-child {
+    padding-right: 0;
+    padding-top: 2em;
+    text-align: center;
+    padding-right: 30px;
+    text-align: center;
+    padding-left: 30px;
+  }
+
+  #interacao .paragrafo p {
+    padding-right: 0;
+    text-align: center;
+    padding-right: 30px;
+    text-align: center;
+    padding-left: 30px;
+  }
+
+  #interacao .imagem img {
+    display: none;
+  }
+
+  #investindo .imagem {
+    text-align: center;
+  }
+
+  #investindo .titulo h1 {
+    text-align: center;
+  }
+
+  #investindo .borda {
+    margin: 0 auto;
+  }
+
+  #investindo .paragrafo p {
+    padding-right: 0;
+    padding-top: 1em;
+    text-align: center;
+    padding-right: 30px;
+    text-align: center;
+    padding-left: 30px;
+  }
+
+  #investindo .botao {
+    text-align: center;
+  }
+
+  #investindo .botao button {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 457px) {
+  nav .navbar-brand img {
+    width: 70%;
+  }
+
+  nav .navbar-toggler {
+    margin-left: 15em;
+    margin-top: -6em;
+  }
+
+  nav .navbar-nav a {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  nav a {
+    margin-top: 10px;
+  }
+
+  nav .navbar-nav {
+    margin-left: 0em;
+    padding-left: -10em;
+  }
+
+  #header {
+    background: none;
+  }
+
+  #estrutura {
+    background: none;
+  }
+
+  #streaming {
+    background: none;
+  }
+
+  #interacao {
+    background: none;
+  }
+
+  #investindo {
+    background: none;
+  }
+
+  #header .titulo h1 {
+    padding-right: 30px;
+    text-align: center;
+    padding-left: 30px;
+  }
+
+  #header .botao {
+    text-align: center;
+  }
+
+  #header .botao button {
+    width: 90%;
+  }
+
+  #resultados .carrossel {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #resultados .carrossel img {
+    margin: 0 auto;
+    margin-top: 3em;
+  }
+
+  #estrutura .texto p {
+    padding-right: 30px;
+    text-align: center;
+    padding-left: 30px;
+  }
+
+  #estrutura .imagem img {
+    display: none;
+  }
+
+  #streaming .circular {
+    background: url("../img/homem2Mobile.png") no-repeat;
+    background-size: 100%;
+  }
+
+  #streaming .imagem img {
+    display: none;
+  }
+
+  #streaming .titulo h3 {
+    padding-top: 6em;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  #streaming .paragrafo p {
+    padding-right: 0;
+    padding-top: 1em;
+    text-align: center;
+    padding-right: 30px;
+    text-align: center;
+    padding-left: 30px;
+  }
+
+  #streaming .botao button {
+    width: 90%;
+  }
+
+  #interacao .titulo h1 {
+    text-align: center;
+  }
+
+  #interacao .borda {
+    margin: 0 auto;
+  }
+
+  #interacao .paragrafo p:first-child {
+    padding-right: 0;
+    padding-top: 2em;
+    text-align: center;
+    padding-right: 30px;
+    text-align: center;
+    padding-left: 30px;
+  }
+
+  #interacao .paragrafo p {
+    padding-right: 0;
+    text-align: center;
+    padding-right: 30px;
+    text-align: center;
+    padding-left: 30px;
+  }
+
+  #interacao .imagem img {
+    display: none;
+  }
+
+  #investindo .imagem {
+    text-align: center;
+  }
+
+  #investindo .titulo h1 {
+    text-align: center;
+  }
+
+  #investindo .borda {
+    margin: 0 auto;
+  }
+
+  #investindo .paragrafo p {
+    padding-right: 0;
+    padding-top: 1em;
+    text-align: center;
+    padding-right: 30px;
+    text-align: center;
+    padding-left: 30px;
+  }
+
+  #investindo .botao {
+    text-align: center;
+  }
+
+  #investindo .botao button {
+    width: 90%;
+  }
+
+  #footer .icons {
+    display: none;
+  }
+
+  #footer .copyright p {
+    font-weight: 300;
+    margin-top: -2em;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 413px) {
+  nav .navbar-brand img {
+    width: 70%;
+  }
+
+  nav .navbar-toggler {
+    margin-left: 13em;
+    margin-top: -6em;
+  }
+
+  nav .navbar-nav a {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  nav .navbar-nav {
+    margin-left: 0em;
+    padding-left: -10em;
+  }
+
+  nav a {
+    margin-top: 10px;
+  }
+
+  #header {
+    background: none;
+  }
+
+  #estrutura {
+    background: none;
+  }
+
+  #streaming {
+    background: none;
+  }
+
+  #interacao {
+    background: none;
+  }
+
+  #investindo {
+    background: none;
+  }
+
+  #header .titulo h1 {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  #header .botao {
+    text-align: center;
+  }
+
+  #header .botao button {
+    width: 90%;
+  }
+
+  #resultados .carrossel {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #resultados .carrossel img {
+    margin: 0 auto;
+    margin-top: 3em;
+    width: 100%;
+  }
+
+  #estrutura .texto p {
+    padding-right: 0;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  #estrutura .imagem img {
+    display: none;
+  }
+
+  #streaming .circular {
+    background: url("../img/homem2Mobile.png") no-repeat;
+    background-size: 100%;
+  }
+
+  #streaming .imagem img {
+    display: none;
+  }
+
+  #streaming .titulo h3 {
+    padding-right: 0;
+    text-align: center;
+    padding-top: 6em;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #streaming .paragrafo p {
+    padding-right: 0;
+    padding-top: 1em;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #streaming .botao button {
+    width: 90%;
+  }
+
+  #interacao .titulo h1 {
+    text-align: center;
+  }
+
+  #interacao .borda {
+    margin: 0 auto;
+  }
+
+  #interacao .paragrafo p:first-child {
+    padding-right: 0;
+    padding-top: 2em;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #interacao .paragrafo p {
+    padding-right: 0;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #interacao .imagem img {
+    display: none;
+  }
+
+  #investindo .imagem {
+    text-align: center;
+  }
+
+  #investindo .titulo h1 {
+    text-align: center;
+  }
+
+  #investindo .borda {
+    margin: 0 auto;
+  }
+
+  #investindo .paragrafo p {
+    padding-right: 0;
+    padding-top: 1em;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #investindo .botao {
+    text-align: center;
+  }
+
+  #investindo .botao button {
+    width: 90%;
+  }
+
+  #footer .icons {
+    display: none;
+  }
+
+  #footer .copyright p {
+    font-weight: 300;
+    margin-top: -2em;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 369px) {
+  nav .navbar-brand img {
+    width: 80%;
+    margin-left: -3em;
+  }
+
+  nav .navbar-toggler {
+    margin-left: 11em;
+    margin-top: -5em;
+  }
+
+  nav .navbar-nav a {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  nav .navbar-nav {
+    margin-left: 0em;
+    padding-left: -10em;
+  }
+
+  nav a {
+    margin-top: 10px;
+  }
+
+  #header {
+    background: none;
+  }
+
+  #estrutura {
+    background: none;
+  }
+
+  #streaming {
+    background: none;
+  }
+
+  #interacao {
+    background: none;
+  }
+
+  #investindo {
+    background: none;
+  }
+
+  #header .titulo h1 {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  #header .botao {
+    text-align: center;
+  }
+
+  #header .botao button {
+    width: 90%;
+  }
+
+  #resultados .carrossel {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #resultados .carrossel img {
+    margin: 0 auto;
+    margin-top: 3em;
+    width: 100%;
+  }
+
+  #estrutura .texto p {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  #estrutura .imagem img {
+    display: none;
+  }
+
+  #streaming .circular {
+    background: url("../img/homem2Mobile.png") no-repeat;
+    background-size: 100%;
+  }
+
+  #streaming .imagem img {
+    display: none;
+  }
+
+  #streaming .titulo h3 {
+    padding-right: 0;
+    text-align: center;
+    padding-top: 6em;
+  }
+
+  #streaming .paragrafo p {
+    padding-right: 0;
+    padding-top: 1em;
+    text-align: center;
+  }
+
+  #streaming .botao button {
+    width: 90%;
+  }
+
+  #interacao .titulo h1 {
+    text-align: center;
+  }
+
+  #interacao .borda {
+    margin: 0 auto;
+  }
+
+  #interacao .paragrafo p:first-child {
+    padding-right: 0;
+    padding-top: 2em;
+    text-align: center;
+  }
+
+  #interacao .paragrafo p {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  #interacao .imagem img {
+    display: none;
+  }
+
+  #investindo .imagem {
+    text-align: center;
+  }
+
+  #investindo .titulo h1 {
+    text-align: center;
+  }
+
+  #investindo .borda {
+    margin: 0 auto;
+  }
+
+  #investindo .paragrafo p {
+    padding-right: 0;
+    padding-top: 1em;
+    text-align: center;
+  }
+
+  #investindo .botao {
+    text-align: center;
+  }
+
+  #investindo .botao button {
+    width: 90%;
+  }
+
+  #footer .icons {
+    display: none;
+  }
+
+  #footer .copyright p {
+    font-weight: 300;
+    margin-top: -2em;
+  }
+}
