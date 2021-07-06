@@ -110,13 +110,13 @@ nav .acessar {
 
 #streaming .circular {
   background: url("../img/circular.png") no-repeat;
-  background-size: 100%;
+  background-size: cover;
   margin-top: 10%;
   margin-bottom: 70px;
 }
 
 #streaming .imagem img {
-  margin-top: -5em;
+  margin-top: -2em;
 }
 
 #streaming .titulo h3 {
